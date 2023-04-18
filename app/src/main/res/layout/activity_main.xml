@@ -8,9 +8,9 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="255dp"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="Welcome to this webpage"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -18,14 +18,16 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="match_parent"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="434dp"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:text="SUBSCRIBE HERE"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="437dp"
+        android:layout_height="227dp"
         tools:srcCompat="@tools:sample/avatars" />
 
 </LinearLayout>

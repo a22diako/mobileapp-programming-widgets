@@ -14,7 +14,11 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:gravity="center"
+        android:textAlignment="center"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="80dp"
+        />
 
     <Button
         android:id="@+id/button"
@@ -22,12 +26,14 @@
         android:layout_width="434dp"
         android:layout_height="wrap_content"
         android:text="SUBSCRIBE HERE"
-        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:layout_marginTop="20dp"/>
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="437dp"
         android:layout_height="227dp"
-        tools:srcCompat="@tools:sample/avatars" />
+        tools:srcCompat="@tools:sample/avatars"
+        android:layout_marginTop="20dp"/>
 
 </LinearLayout>

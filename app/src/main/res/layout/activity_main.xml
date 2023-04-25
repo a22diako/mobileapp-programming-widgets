@@ -34,6 +34,8 @@
         android:layout_width="437dp"
         android:layout_height="227dp"
         android:layout_marginTop="20dp"
-        tools:srcCompat="@tools:sample/avatars" />
+        android:background="#57BAB1"
+        app:srcCompat="@drawable/abc_vector_test"
+        tools:srcCompat="@drawable/abc_vector_test" />
 
 </LinearLayout>

@@ -19,5 +19,5 @@ Android text är texten i knappen.
 ```
 
 
-![](android.png) 
+![](screen_pilfoto.png) 
 

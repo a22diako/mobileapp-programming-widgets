@@ -5,7 +5,7 @@ Jag har infört widgets samt linear layout där jag fått positionera samt style
 Hänvisar till kod nedanför. 
 
 Position har skett genom layout marginal top som avgör vart knappen ska positioneras. 
-Android text är texten i knappen. 
+Android text är texten i knappen..
 
 ```
 <Button
